@@ -1,0 +1,8 @@
+venv/
+app_log.log
+celerybeat-schedule.bak
+celerybeat-schedule.dat
+celerybeat-schedule.dir
+db.sqlite3
+dump.rdb
+NotificationServiceApi/notifications/migrations
