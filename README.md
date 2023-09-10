@@ -7,7 +7,7 @@
 ### 2.	Клонировать репозиторий и перейти в папку проекта:
 
 ```bash
-git clone https://gitlab.com/dev6660336/notificationserviceapi.git
+git clone https://github.com/DemiRomm/API_mailing.git
 ```
 ```bash
 cd notificationserviceapi\NotificationServiceApi
