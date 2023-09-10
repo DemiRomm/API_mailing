@@ -50,6 +50,9 @@ celery -A NotificationServiceApi worker --loglevel=info -P eventlet
 ```
 ### 9.	Запуск задачи по рассылке уведомлений в новом окне терминала:
 ```bash
+cd notificationserviceapi\NotificationServiceApi
+```
+```bash
 python manage.py shell
 ```
 ```bash
