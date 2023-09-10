@@ -65,7 +65,7 @@ def mailing_start():
                     )
                     for client in clients:
                         client_id = client
-                        if send_message(message_id[0], int(client.id), text_mail == 'Успешно'):
+                        if send_message(message_id[0], int(client.id), text_mail) == 'Успешно':
                             Message.objects.create(
                                 status='Отправлено',
                                 mailing_id=mailing_id,
