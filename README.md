@@ -46,11 +46,14 @@ redis-server
 cd notificationserviceapi\NotificationServiceApi
 ```
 ```bash
-celery -A NotificationServiceApi worker --loglevel=info -P eventle
+celery -A NotificationServiceApi worker --loglevel=info -P eventlet
 ```
 ### 9.	Запуск задачи по рассылке уведомлений в новом окне терминала:
 ```bash
 python manage.py shell
+```
+```bash
+from notifications.tasks import mailing_start
 ```
 ```bash
 mailing_start()
